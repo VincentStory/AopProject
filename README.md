@@ -211,8 +211,12 @@ public class LoginCheckAspect {
         Log.e(TAG, "开始跳转到 -> 我的余额 Activity");
     }
 
-    @LoginCheck(title = "登录检查",isSaveRequestData = false)
     public void myScore(View view) {
+        checkLogin("参数1", "参数2");
+    }
+
+    @LoginCheck(title = "登录检查", isSaveRequestData = false)
+    public void checkLogin(String str, String str2) {
         Log.e(TAG, "开始跳转到 -> 我的积分 Activity");
     }
 
