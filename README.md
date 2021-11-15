@@ -219,11 +219,13 @@ public class LoginCheckAspect {
 ```
 点击跳转之后打印信息如下：
 ```
-2021-11-06 15:34:41.313 21820-21820/com.vincent.aop.project E/aop_tag >>>: 类名：com.vincent.aop.project.MainActivity
-2021-11-06 15:34:41.313 21820-21820/com.vincent.aop.project E/aop_tag >>>: 切入方法名字：myScore
-2021-11-06 15:34:41.313 21820-21820/com.vincent.aop.project E/aop_tag >>>: 切入方法注解的title:登录检查
-2021-11-06 15:34:41.314 21820-21820/com.vincent.aop.project E/aop_tag >>>: 切入方法的参数：false
-2021-11-06 15:34:41.314 21820-21820/com.vincent.aop.project E/aop_tag >>>: 检测到未登录！
+2021-11-15 10:53:43.930 6665-6665/com.vincent.aop.project E/aop_tag >>>: 类名：com.vincent.aop.project.MainActivity
+2021-11-15 10:53:43.931 6665-6665/com.vincent.aop.project E/aop_tag >>>: 切入方法名字：checkLogin
+2021-11-15 10:53:43.932 6665-6665/com.vincent.aop.project E/aop_tag >>>: 切入方法注解的title:登录检查
+2021-11-15 10:53:43.933 6665-6665/com.vincent.aop.project E/aop_tag >>>: 切入方法注解的isSaveRequestData：false
+2021-11-15 10:53:43.933 6665-6665/com.vincent.aop.project E/aop_tag >>>: 切入方法的参数：参数1
+2021-11-15 10:53:43.933 6665-6665/com.vincent.aop.project E/aop_tag >>>: 切入方法的参数：参数2
+2021-11-15 10:53:43.933 6665-6665/com.vincent.aop.project E/aop_tag >>>: 检测到未登录！
 ```
 
 ##### 4.总结：
